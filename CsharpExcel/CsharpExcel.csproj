@@ -60,11 +60,20 @@
     <Compile Include="FrmReader.Designer.cs">
       <DependentUpon>FrmReader.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmWriter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWriter.Designer.cs">
+      <DependentUpon>FrmWriter.cs</DependentUpon>
+    </Compile>
     <Compile Include="helper\NpoiHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmReader.resx">
       <DependentUpon>FrmReader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWriter.resx">
+      <DependentUpon>FrmWriter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
