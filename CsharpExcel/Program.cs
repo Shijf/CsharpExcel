@@ -16,7 +16,7 @@ namespace CsharpExcel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmWriter());
+            Application.Run(new FrmReadCommon());
         }
     }
 }
